@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title>
+</head>
+
+<body>
+    <ul id="tareas"></ul>
+
+    <div>
+        <h1>lista de tareas </h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>task</th>
+                    <th>state</th>
+                    <th>end</th>
+                </tr>
+            </thead>
+            <tbody id="Table1">
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <h2>Tareas incompletas</h2>
+        <ul id="completa"></ul>
+    </div>
+
+    <div>
+        <h2>Tareas incompletas</h2>
+        <ul id="incompleta"></ul>
+    </div>
+
+
+    Ingrese id de la tarea <input type="text" id="tareaId"><br>
+    Ingrese tarea <input type="text" id="tareaNombre"><br>
+    Ingrese estado <input type="text" id="tareaEstado"><br>
+    Ingrese fecha <input type="text" id="tareaEnd"><br>
+    <button id="agregarTarea">Agregar Tarea</button>
+
+    <script src="data.js"></script>
+</body>
+
+</html>
